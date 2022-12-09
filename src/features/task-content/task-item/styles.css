@@ -1,0 +1,44 @@
+.single-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  height: 72px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  background: transparent;
+  color: #666666;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+.single-item::after {
+  content: "";
+  position: absolute;
+  background-color: #e5e5e5;
+  height: 1px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.single-item input {
+  width: 18px;
+  height: 18px;
+  accent-color: #008594;
+}
+
+.single-item button {
+  width: 13.18px;
+  height: 13.18px;
+  border: none;
+  color: #174348;
+  cursor: pointer;
+}
+
+.task-text {
+  margin-left: 27px;
+}

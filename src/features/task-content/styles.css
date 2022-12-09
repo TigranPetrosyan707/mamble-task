@@ -1,0 +1,55 @@
+.content-task-paragraph p {
+  position: absolute;
+  top: 140px;
+  left: 398px;
+  width: 484px;
+  height: 36px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  color: #acacac;
+}
+
+.content-task-paragraph h3 {
+  position: absolute;
+  top: 176px;
+  left: 309px;
+  width: 631px;
+  height: 54px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.002em;
+  color: #666666;
+}
+
+.task-items {
+  margin-top: 20px;
+}
+
+.hidden-container {
+  display: flex;
+  position: absolute;
+  top: -80px;
+  right: -90px;
+  gap: 15px;
+}
+
+.hidden-container .hidden-checkbox {
+  width: 18px;
+  accent-color: #008594;
+}
+
+.hidden-container span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #000000;
+}

@@ -1,0 +1,66 @@
+.adding-task-form {
+  display: flex;
+  gap: 24px;
+}
+
+.adding-task-form::after {
+  content: "Task";
+  position: absolute;
+  top: -27px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  color: #174348;
+}
+
+.adding-task-input {
+  width: 954px;
+  height: 52px;
+  border: 1px solid #ffcd04;
+  border-radius: 4px;
+  padding-left: 15px;
+}
+
+.adding-task-input:focus {
+  outline: none;
+  border: 1px solid #ffcd04;
+}
+
+.adding-task-input::placeholder {
+  position: absolute;
+  width: 92px;
+  height: 27px;
+  left: 16px;
+  top: 13px;
+  bottom: 12px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #dfdfdf;
+  font-style: normal;
+}
+
+.adding-task-submit {
+  min-width: 100px;
+  height: 52px;
+  border-radius: 4px;
+  background: #008594;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  .adding-task-form {
+    flex-direction: column;
+  }
+}
